@@ -11,5 +11,4 @@ public class NextCommand implements Command {
     public void execute() {
         presenter.show(presenter.current().next());
     }   
-    
 }

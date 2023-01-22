@@ -34,10 +34,6 @@ public class ImagePresenter {
         this.refresh();
     }
     
-    private void onResized() {
-        this.refresh();
-    }
-    
     public ImagePresenter show(Image image) {
         this.image = image;
         this.refresh();
@@ -57,9 +53,5 @@ public class ImagePresenter {
     public void refresh() {
         this.display.clear();
         if (image != null) this.display.paintImage(image.data(), imageWindowOf(image));
-    }
-    
-    public ImageDisplay getDisplay() {
-        return display;
     }
 }

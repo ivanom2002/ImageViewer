@@ -1,7 +1,5 @@
 package imageviewer.architecture;
 
-import java.awt.event.ComponentAdapter;
-
 public interface ImageDisplay {
 
     public int width();

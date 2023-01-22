@@ -55,5 +55,4 @@ public class ImageWindow {
             x = x + offset;
             return this;
     }
-    
 }

@@ -11,5 +11,4 @@ public class PrevCommand implements Command {
     public void execute() {
         presenter.show(presenter.current().prev());
     }   
-    
 }

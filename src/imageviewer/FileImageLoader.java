@@ -91,8 +91,4 @@ public class FileImageLoader implements ImageLoader {
             }
         };
     }
-    
-    
-    
-    
 }

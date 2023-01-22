@@ -19,5 +19,4 @@ public class ImageViewer {
         frame.start();
         presenter.show(image);
     }
-    
 }

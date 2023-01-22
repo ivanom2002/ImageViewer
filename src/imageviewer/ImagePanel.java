@@ -1,6 +1,5 @@
 package imageviewer;
 
-import imageviewer.architecture.Command;
 import imageviewer.architecture.ImageDisplay;
 import imageviewer.architecture.ImageWindow;
 import java.awt.*;
@@ -9,7 +8,6 @@ import java.awt.image.BufferedImage;
 import java.io.*;
 import java.util.List;
 import java.util.ArrayList;
-import java.util.Map;
 import javax.imageio.ImageIO;
 import javax.swing.JPanel;
 
